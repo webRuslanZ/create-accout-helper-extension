@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 350px;
+  width: 400px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.wrapper {
+  padding: 10px 0;
+}
+
+.name {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid green;
+  outline: transparent;
+  flex: 1;
+  padding-right: 35px;
+}
+
+.splittedNameBlock {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.output-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-block {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.passwordGenerator {
+  margin-top: 20px;
+}
+.error-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: red;
+}
+.output,
+.output-name {
+  font-weight: 700;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  width: 100px;
+  background-color: green;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button_small {
+  width: 50px;
+}
+
+.svgBtn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.svgBtn svg {
+  width: 20px;
+  height: 20px;
+  fill: green;
+}
+
+.svgBtn:hover {
+  transform: rotate(35deg);
+}
+
+.button:hover {
+  background-color: #fff;
+  color: green;
+  border: 1px solid green;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.swap {
+  position: absolute;
+  right: 0;
+  top: 47%;
+}

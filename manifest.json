@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "split-names-for-ad@local"
+        }
+    },
+    "name": "split names",
+    "version": "1.4.1",
+    "description": "Split names",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/border-48.png",
+        "default_title": "SplitNames",
+        "default_popup": "popup/index.html"
+    }
+}
